@@ -24,8 +24,6 @@ This project is designed to familiarize users with socket programming, client-se
 * Broadcast messaging
 * Private messaging
 * Custom command parsing
-* Time-based commands
-* User listing
 * Graceful disconnects
 
 
