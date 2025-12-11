@@ -6,7 +6,6 @@ This project is a client-server chatroom application that demonstrates basic net
 The chatroom allows multiple clients to connect to a server, authenticate with a passcode, communicate with each other, and use shortcut commands.
 This project is designed to familiarize users with socket programming, client-server architecture, maintaining multiple persistent TCP connections, text parsing, and designing a simple application-layer protocol.
 
----
 
 ## Project Objectives
 
@@ -16,7 +15,6 @@ This project is designed to familiarize users with socket programming, client-se
 **Shortcut Commands:** Allows users to trigger special behaviors such as time formatting, emotions, and private messaging.
 **Graceful Exit Handling:** Ensures proper cleanup and notification when clients disconnect.
 
----
 
 ## Features
 
@@ -30,7 +28,6 @@ This project is designed to familiarize users with socket programming, client-se
 * User listing
 * Graceful disconnects
 
----
 
 ## Shortcut Commands
 
@@ -48,7 +45,6 @@ This project is designed to familiarize users with socket programming, client-se
 **Time Format Example:**
 `Mon Aug 13 08:23:14 2012`
 
----
 
 ## Running the Application
 
@@ -72,7 +68,6 @@ Server Output:
 Server started on port 65432. Accepting connections...
 ```
 
----
 
 ### 2. Start a Client
 
@@ -100,7 +95,6 @@ Server Output:
 Alice joined the chatroom
 ```
 
----
 
 ### Example: When a second client joins
 
