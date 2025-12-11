@@ -4,7 +4,6 @@ import sys
 import argparse
 from datetime import datetime, timedelta
 
-#TODO: Implement all code for your server here
 
 HOST = "127.0.0.1" #local client 
 
@@ -24,8 +23,6 @@ clients = []
 usernames = []
 
 def broadcast(message, sender):
-    # print(message)
-    # sys.stdout.flush()
     # send message to all connected clients
     for client in clients:
         if client != sender:
