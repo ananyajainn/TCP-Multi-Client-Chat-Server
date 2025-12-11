@@ -9,11 +9,11 @@ This project is designed to familiarize users with socket programming, client-se
 
 ## Project Objectives
 
-**TCP Socket Usage:** Demonstrates persistent TCP connections, reliable communication, and connection management.
-**Client-Server Architecture:** Implements multi-client handling using threads and a central chatroom server.
-**Application-Layer Protocol Design:** Includes username negotiation, passcode authentication, and custom text-based commands.
-**Shortcut Commands:** Allows users to trigger special behaviors such as time formatting, emotions, and private messaging.
-**Graceful Exit Handling:** Ensures proper cleanup and notification when clients disconnect.
+- **TCP Socket Usage:** Demonstrates persistent TCP connections, reliable communication, and connection management.
+- **Client-Server Architecture:** Implements multi-client handling using threads and a central chatroom server.
+- **Application-Layer Protocol Design:** Includes username negotiation, passcode authentication, and custom text-based commands.
+- **Shortcut Commands:** Allows users to trigger special behaviors such as time formatting, emotions, and private messaging.
+- **Graceful Exit Handling:** Ensures proper cleanup and notification when clients disconnect.
 
 
 ## Features
