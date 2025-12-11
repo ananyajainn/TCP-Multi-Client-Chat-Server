@@ -63,7 +63,7 @@ python3 server.py -start -port 65432 -passcode secret123
 Server Output:
 
 ```
-Server started on port 65432. Accepting connections...
+Server started on port 65432. Accepting connections
 ```
 
 
