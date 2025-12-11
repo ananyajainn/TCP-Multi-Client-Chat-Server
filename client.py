@@ -3,20 +3,6 @@ import threading
 import sys
 import argparse
 
-
-# TODO: Implement a client that connects to your server to chat with other clients here
-  
-
-# with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-#     s.connect((HOST, PORT))
-#     s.sendall(b"Hello, world")
-#     data = s.recv(1024)
-
-# print(f"Received {data!r}")
-
-# HOST = "127.0.0.1"
-# PORT = 65431 
-
 parser = argparse.ArgumentParser(prog='TCP Chatroom Client')
 parser.add_argument("-join", action="store_true")
 parser.add_argument("-host")
